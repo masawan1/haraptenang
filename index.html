@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman UTBK PPG</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Menggunakan font Poppins */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Efek gradien dan bayangan untuk kartu utama */
+        .card-gradient {
+            background-image: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+        }
+        /* Efek gradien untuk latar belakang */
+        .body-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+    </style>
+</head>
+<body class="body-gradient min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
+
+    <!-- Kartu Pengumuman -->
+    <div class="card-gradient w-full max-w-md mx-auto rounded-2xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        
+        <!-- Header dengan Logo -->
+        <div class="bg-white p-6 text-center border-b-4 border-blue-600">
+            <img src="https://seeklogo.com/images/U/universitas-pendidikan-indonesia-upi-logo-329344344A-seeklogo.com.png" 
+                 alt="Logo Universitas Pendidikan Indonesia" 
+                 class="w-24 h-24 mx-auto mb-4"
+                 onerror="this.onerror=null;this.src='https://placehold.co/96x96/e2e8f0/334155?text=UPI';">
+            <h1 class="text-3xl font-extrabold text-blue-800 tracking-wider">PENGUMUMAN</h1>
+            <p class="text-sm text-gray-500 mt-1">Informasi Penting</p>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="p-8">
+            <p class="text-center text-gray-700 mb-6">
+                Demi kelancaran pelaksanaan <strong>UTBK PPG (Pendidikan Profesi Guru)</strong>, dengan hormat disampaikan informasi berikut:
+            </p>
+
+            <!-- Detail Waktu -->
+            <div class="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-5 space-y-4">
+                <div class="flex items-center space-x-4">
+                    <!-- Ikon Kalender -->
+                    <div class="flex-shrink-0 bg-blue-500 text-white rounded-full p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-blue-900">Tanggal</p>
+                        <p class="text-gray-700">Selasa, 29 Juli 2025</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <!-- Ikon Do Not Disturb -->
+                    <div class="flex-shrink-0 bg-red-500 text-white rounded-full p-2">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-off"><path d="M19.69 14a6.9 6.9 0 0 0 .31-2V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m2 2 20 20"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-red-900">Mohon untuk tidak menghubungi pada:</p>
+                        <p class="text-xl font-bold text-red-700">Pukul 07.30 - 11.00 WIB</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ucapan Terima Kasih -->
+            <div class="mt-8 text-center">
+                <p class="text-gray-600">Atas perhatian dan pengertiannya, diucapkan</p>
+                <p class="text-lg font-semibold text-blue-800">Terima Kasih</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-100 px-6 py-3 text-center text-xs text-gray-400">
+            Universitas Pendidikan Indonesia
+        </div>
+    </div>
+
+</body>
+</html>
